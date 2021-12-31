@@ -38,7 +38,7 @@ gem "rack-cors"
 
 gem "pry"
 
-gem "jwt"
+gem "jwt", "~> 2.3.0"
 
 gem "rufo"
 

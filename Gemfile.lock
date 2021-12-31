@@ -149,7 +149,7 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap
   debug
-  jwt
+  jwt (~> 2.3.0)
   pry
   puma (~> 5.0)
   rack-cors
