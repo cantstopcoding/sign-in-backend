@@ -2,7 +2,7 @@ class Api::V1::UsersController < ApplicationController
   def signup
     user = User.create(user_params)
     if user.save
-      render json: user
+      render json: { token: Auth.createToken(user) }
     else
       render json: { errors: user.errors }, status: 500
     end
