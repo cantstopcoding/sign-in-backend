@@ -8,3 +8,8 @@
 
 User.create(name: "Rafael", email: "r@r.com", username: "rafa", password: "pw")
 User.create(name: "Jonathan", email: "j@j.com", username: "Jon", password: "pw")
+
+Book.create(title: "War & Peace")
+Book.create(title: "The Great Gatsby")
+Book.create(title: "The Catcher in the Rye")
+Book.create(title: "Jonathan Livingston Seagull")
